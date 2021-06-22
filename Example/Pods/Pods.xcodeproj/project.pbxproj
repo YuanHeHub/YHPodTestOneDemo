@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		091CE72BE4FAFC1D03E3373412CBB19A /* Pods-PSGTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12318EC72C0CA9AB054FCA4CA4C16F75 /* Pods-PSGTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F5B69ED1F1B02996A882826456E22FD /* StaticFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E7A7CD8CFB4F9AF6FAD84DEF24BAC50 /* StaticFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B4AF085065356C7953BA3EDABF36BCB /* PSGTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8106DA8F263E3137D80F5348E4ECFA4E /* PSGTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1B0672C48CE9E6B43AF716915BAF89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		42ED7A967C54E04E1396A0648AD5A5BF /* PSGTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E2CC52C6750769174471016126AC3 /* PSGTools-dummy.m */; };
+		4D70B4095A617322E7B2F43EB209BFA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		96A50105FE381CDBE5CCE76C819B1190 /* Pods-PSGTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC3ABA8813121F78FFB87EBC321665 /* Pods-PSGTools_Example-dummy.m */; };
+		B485F69B515DF77B421BB4220FD4163E /* StaticFramework in Sources */ = {isa = PBXBuildFile; fileRef = FDEE078C65EFF9C0B75C82F3C9A95B5F /* StaticFramework */; };
+		C5E87D53DBEB5F991B24AE42E0005EFD /* Pods-PSGTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C68EE34EEB1A0C42090C6328390F1CDB /* Pods-PSGTools_Tests-dummy.m */; };
+		F2E2A56D0FE825163A726D9C04564DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FA676C5A79FDE4744B636B0B5FD1AC3D /* Pods-PSGTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA13E3D2BC128E702D57B9C33558DE88 /* Pods-PSGTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0C61DAE1880BA707C9B34030766C70A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A263F8A2740ABED179DC9F815377A5;
+			remoteInfo = PSGTools;
+		};
+		F185842A187B784EC1033183CC72BBD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9438D8A2BF6DEB879BC6DCC55DECF78C;
+			remoteInfo = "Pods-PSGTools_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A2A10D9A98EBBEA4C63AB15F166A29 /* Pods-PSGTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSGTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BC82CD7FBD3628CCDD33B1E22092B85 /* Pods-PSGTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSGTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0D907AD1A4ACFFAD764E341E0BE1DACF /* PSGTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PSGTools-Info.plist"; sourceTree = "<group>"; };
+		12318EC72C0CA9AB054FCA4CA4C16F75 /* Pods-PSGTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSGTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		15A37296E276F4C6390B3A6AB8B0FAB7 /* PSGTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSGTools-prefix.pch"; sourceTree = "<group>"; };
+		18DC3ABA8813121F78FFB87EBC321665 /* Pods-PSGTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSGTools_Example-dummy.m"; sourceTree = "<group>"; };
+		19D87A319C89BB050F9F8E70CD74D8B4 /* PSGTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PSGTools.framework; path = PSGTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC505E97224A3E76E49FB0D0522C7AE /* Pods-PSGTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSGTools_Tests-Info.plist"; sourceTree = "<group>"; };
+		1FEC7F0B4466354A80AE7C07B60B9A7A /* Pods-PSGTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSGTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		21D6286DA7220A1854DE68FB25ED3A05 /* Pods-PSGTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSGTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		24C3628C799D22FEA6ADE16E289E2B27 /* PSGTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PSGTools.modulemap; sourceTree = "<group>"; };
+		28D26147116DFC41C66F9DB78BD01B37 /* Pods-PSGTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSGTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F8E2CC52C6750769174471016126AC3 /* PSGTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSGTools-dummy.m"; sourceTree = "<group>"; };
+		31E4D23621586C89A1A8FF90DC9CA4D1 /* PSGTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSGTools.release.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36377E7AB6956F0A917D1DEF08D50332 /* Pods-PSGTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSGTools_Tests.modulemap"; sourceTree = "<group>"; };
+		57A36C84CC5206FFBC370A284E0E82B9 /* Pods-PSGTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSGTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		601968002C314FD0A5B1A726D5049D81 /* Pods-PSGTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSGTools_Example.modulemap"; sourceTree = "<group>"; };
+		6E4DA3D93F65345D0A109CCEBBB81D28 /* Pods_PSGTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSGTools_Example.framework; path = "Pods-PSGTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7803AABDB521EFA76E97DB6264D412B6 /* Pods-PSGTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSGTools_Example-Info.plist"; sourceTree = "<group>"; };
+		7B4DC72C599F41C118EC79158CF5A58A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8106DA8F263E3137D80F5348E4ECFA4E /* PSGTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSGTools-umbrella.h"; sourceTree = "<group>"; };
+		993330B6990CF352A9A0E9CF126F75CF /* PSGTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PSGTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B089C23C8BB8E2125D43C522C3A2B07 /* Pods_PSGTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSGTools_Tests.framework; path = "Pods-PSGTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7A7CD8CFB4F9AF6FAD84DEF24BAC50 /* StaticFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StaticFramework.h; sourceTree = "<group>"; };
+		AB035243C795E105381B5641B66B02DA /* Pods-PSGTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSGTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF33BE958ED6066D71E56A93E7D44A89 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C43658CE7B7F7E544457ED5CC254EE43 /* Pods-PSGTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSGTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C68EE34EEB1A0C42090C6328390F1CDB /* Pods-PSGTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSGTools_Tests-dummy.m"; sourceTree = "<group>"; };
+		CA13E3D2BC128E702D57B9C33558DE88 /* Pods-PSGTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSGTools_Example-umbrella.h"; sourceTree = "<group>"; };
+		E1AEAD07B7541557AA8995C76D0DEAA9 /* PSGTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSGTools.debug.xcconfig; sourceTree = "<group>"; };
+		F9E40DC7276E5B2CF59C58194E1B1983 /* Pods-PSGTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSGTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDEE078C65EFF9C0B75C82F3C9A95B5F /* StaticFramework */ = {isa = PBXFileReference; includeInIndex = 1; name = StaticFramework; path = PSGTools/Classes/StaticFramework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50C6BEE3BE6F3EBB0105D157109EFEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E2A56D0FE825163A726D9C04564DD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE3E8EC65061E920134A8E547CB732C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D70B4095A617322E7B2F43EB209BFA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84AEF84002264F55F096B618BF81D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1B0672C48CE9E6B43AF716915BAF89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E467407984EF12B2AC3E752252C9BF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AF33BE958ED6066D71E56A93E7D44A89 /* LICENSE */,
+				993330B6990CF352A9A0E9CF126F75CF /* PSGTools.podspec */,
+				7B4DC72C599F41C118EC79158CF5A58A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2023D10FD8ED159D325A9570B3CCE47A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24C3628C799D22FEA6ADE16E289E2B27 /* PSGTools.modulemap */,
+				2F8E2CC52C6750769174471016126AC3 /* PSGTools-dummy.m */,
+				0D907AD1A4ACFFAD764E341E0BE1DACF /* PSGTools-Info.plist */,
+				15A37296E276F4C6390B3A6AB8B0FAB7 /* PSGTools-prefix.pch */,
+				8106DA8F263E3137D80F5348E4ECFA4E /* PSGTools-umbrella.h */,
+				E1AEAD07B7541557AA8995C76D0DEAA9 /* PSGTools.debug.xcconfig */,
+				31E4D23621586C89A1A8FF90DC9CA4D1 /* PSGTools.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PSGTools";
+			sourceTree = "<group>";
+		};
+		474926794EA93C607C6D726C4DE67C81 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				9E7A7CD8CFB4F9AF6FAD84DEF24BAC50 /* StaticFramework.h */,
+			);
+			name = Headers;
+			path = PSGTools/Classes/Headers;
+			sourceTree = "<group>";
+		};
+		6CC76FA093D09B5608C33B8AC20A6EAD /* Pods-PSGTools_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				36377E7AB6956F0A917D1DEF08D50332 /* Pods-PSGTools_Tests.modulemap */,
+				06A2A10D9A98EBBEA4C63AB15F166A29 /* Pods-PSGTools_Tests-acknowledgements.markdown */,
+				AB035243C795E105381B5641B66B02DA /* Pods-PSGTools_Tests-acknowledgements.plist */,
+				C68EE34EEB1A0C42090C6328390F1CDB /* Pods-PSGTools_Tests-dummy.m */,
+				1EC505E97224A3E76E49FB0D0522C7AE /* Pods-PSGTools_Tests-Info.plist */,
+				12318EC72C0CA9AB054FCA4CA4C16F75 /* Pods-PSGTools_Tests-umbrella.h */,
+				F9E40DC7276E5B2CF59C58194E1B1983 /* Pods-PSGTools_Tests.debug.xcconfig */,
+				57A36C84CC5206FFBC370A284E0E82B9 /* Pods-PSGTools_Tests.release.xcconfig */,
+			);
+			name = "Pods-PSGTools_Tests";
+			path = "Target Support Files/Pods-PSGTools_Tests";
+			sourceTree = "<group>";
+		};
+		AEE711B14939DE182EB8089A99371D61 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B15F97CED20469C08CD0CD226687044A /* PSGTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B15F97CED20469C08CD0CD226687044A /* PSGTools */ = {
+			isa = PBXGroup;
+			children = (
+				FDEE078C65EFF9C0B75C82F3C9A95B5F /* StaticFramework */,
+				474926794EA93C607C6D726C4DE67C81 /* Headers */,
+				00E467407984EF12B2AC3E752252C9BF /* Pod */,
+				2023D10FD8ED159D325A9570B3CCE47A /* Support Files */,
+			);
+			name = PSGTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AEE711B14939DE182EB8089A99371D61 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F8C492CD6913E9E3ED2F1BDB42D11A00 /* Products */,
+				E81C15E37487D877371AB135370626F2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E81C15E37487D877371AB135370626F2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7ECBC8F78FD639AEE5F10CA8403714C /* Pods-PSGTools_Example */,
+				6CC76FA093D09B5608C33B8AC20A6EAD /* Pods-PSGTools_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F7ECBC8F78FD639AEE5F10CA8403714C /* Pods-PSGTools_Example */ = {
+			isa = PBXGroup;
+			children = (
+				601968002C314FD0A5B1A726D5049D81 /* Pods-PSGTools_Example.modulemap */,
+				28D26147116DFC41C66F9DB78BD01B37 /* Pods-PSGTools_Example-acknowledgements.markdown */,
+				1FEC7F0B4466354A80AE7C07B60B9A7A /* Pods-PSGTools_Example-acknowledgements.plist */,
+				18DC3ABA8813121F78FFB87EBC321665 /* Pods-PSGTools_Example-dummy.m */,
+				0BC82CD7FBD3628CCDD33B1E22092B85 /* Pods-PSGTools_Example-frameworks.sh */,
+				7803AABDB521EFA76E97DB6264D412B6 /* Pods-PSGTools_Example-Info.plist */,
+				CA13E3D2BC128E702D57B9C33558DE88 /* Pods-PSGTools_Example-umbrella.h */,
+				C43658CE7B7F7E544457ED5CC254EE43 /* Pods-PSGTools_Example.debug.xcconfig */,
+				21D6286DA7220A1854DE68FB25ED3A05 /* Pods-PSGTools_Example.release.xcconfig */,
+			);
+			name = "Pods-PSGTools_Example";
+			path = "Target Support Files/Pods-PSGTools_Example";
+			sourceTree = "<group>";
+		};
+		F8C492CD6913E9E3ED2F1BDB42D11A00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E4DA3D93F65345D0A109CCEBBB81D28 /* Pods_PSGTools_Example.framework */,
+				9B089C23C8BB8E2125D43C522C3A2B07 /* Pods_PSGTools_Tests.framework */,
+				19D87A319C89BB050F9F8E70CD74D8B4 /* PSGTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A8B8E3CF98E7F9F1DFD4EDCF0D2AEC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA676C5A79FDE4744B636B0B5FD1AC3D /* Pods-PSGTools_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E92587AB0240AB1FD56978D56F2B580 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4AF085065356C7953BA3EDABF36BCB /* PSGTools-umbrella.h in Headers */,
+				0F5B69ED1F1B02996A882826456E22FD /* StaticFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD367924AAAB9A033827D6F0106257CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091CE72BE4FAFC1D03E3373412CBB19A /* Pods-PSGTools_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9438D8A2BF6DEB879BC6DCC55DECF78C /* Pods-PSGTools_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9306BB714C35628F1764CC24A161D13 /* Build configuration list for PBXNativeTarget "Pods-PSGTools_Example" */;
+			buildPhases = (
+				5A8B8E3CF98E7F9F1DFD4EDCF0D2AEC0 /* Headers */,
+				35C4247BD8D446F9EBB0C01DE2C79E0C /* Sources */,
+				E84AEF84002264F55F096B618BF81D54 /* Frameworks */,
+				A3D88191F9DDF1B7178C6CD71C4151DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C59242267549FF7BD95E71536AE38D0C /* PBXTargetDependency */,
+			);
+			name = "Pods-PSGTools_Example";
+			productName = "Pods-PSGTools_Example";
+			productReference = 6E4DA3D93F65345D0A109CCEBBB81D28 /* Pods_PSGTools_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3A263F8A2740ABED179DC9F815377A5 /* PSGTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4234DBEBE43F9FFD785275146E26B574 /* Build configuration list for PBXNativeTarget "PSGTools" */;
+			buildPhases = (
+				5E92587AB0240AB1FD56978D56F2B580 /* Headers */,
+				F3BE3C6F29485327982F58A2673DC886 /* Sources */,
+				50C6BEE3BE6F3EBB0105D157109EFEA4 /* Frameworks */,
+				2B30925DC9439F3A9754E0A779736644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSGTools;
+			productName = PSGTools;
+			productReference = 19D87A319C89BB050F9F8E70CD74D8B4 /* PSGTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E881F087B98BF42015DDB9699B533921 /* Pods-PSGTools_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08D02B4498ABEFD4731112CD5754E83 /* Build configuration list for PBXNativeTarget "Pods-PSGTools_Tests" */;
+			buildPhases = (
+				BD367924AAAB9A033827D6F0106257CD /* Headers */,
+				7290E76CA6B0C9286BE4B962CC093715 /* Sources */,
+				6EE3E8EC65061E920134A8E547CB732C /* Frameworks */,
+				EDB105B3FAA6D00FF1D75BE10AC8239F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C827CD9D5B1EA87DA0E49FB8D846E81F /* PBXTargetDependency */,
+			);
+			name = "Pods-PSGTools_Tests";
+			productName = "Pods-PSGTools_Tests";
+			productReference = 9B089C23C8BB8E2125D43C522C3A2B07 /* Pods_PSGTools_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F8C492CD6913E9E3ED2F1BDB42D11A00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9438D8A2BF6DEB879BC6DCC55DECF78C /* Pods-PSGTools_Example */,
+				E881F087B98BF42015DDB9699B533921 /* Pods-PSGTools_Tests */,
+				B3A263F8A2740ABED179DC9F815377A5 /* PSGTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B30925DC9439F3A9754E0A779736644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D88191F9DDF1B7178C6CD71C4151DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB105B3FAA6D00FF1D75BE10AC8239F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35C4247BD8D446F9EBB0C01DE2C79E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A50105FE381CDBE5CCE76C819B1190 /* Pods-PSGTools_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7290E76CA6B0C9286BE4B962CC093715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E87D53DBEB5F991B24AE42E0005EFD /* Pods-PSGTools_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BE3C6F29485327982F58A2673DC886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ED7A967C54E04E1396A0648AD5A5BF /* PSGTools-dummy.m in Sources */,
+				B485F69B515DF77B421BB4220FD4163E /* StaticFramework in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C59242267549FF7BD95E71536AE38D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSGTools;
+			target = B3A263F8A2740ABED179DC9F815377A5 /* PSGTools */;
+			targetProxy = A0C61DAE1880BA707C9B34030766C70A /* PBXContainerItemProxy */;
+		};
+		C827CD9D5B1EA87DA0E49FB8D846E81F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PSGTools_Example";
+			target = 9438D8A2BF6DEB879BC6DCC55DECF78C /* Pods-PSGTools_Example */;
+			targetProxy = F185842A187B784EC1033183CC72BBD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14B7F3685C095DD9F7537710A2C2F184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A36C84CC5206FFBC370A284E0E82B9 /* Pods-PSGTools_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSGTools_Tests/Pods-PSGTools_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSGTools_Tests/Pods-PSGTools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63E7D0914C5F60CB499F812DE5005B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E40DC7276E5B2CF59C58194E1B1983 /* Pods-PSGTools_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSGTools_Tests/Pods-PSGTools_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSGTools_Tests/Pods-PSGTools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C14D316808BDF69B3EFAD5CEA29BAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E4D23621586C89A1A8FF90DC9CA4D1 /* PSGTools.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PSGTools/PSGTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSGTools/PSGTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PSGTools/PSGTools.modulemap";
+				PRODUCT_MODULE_NAME = PSGTools;
+				PRODUCT_NAME = PSGTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AFE347CD049076961633FCD099797E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D6286DA7220A1854DE68FB25ED3A05 /* Pods-PSGTools_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSGTools_Example/Pods-PSGTools_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSGTools_Example/Pods-PSGTools_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9261C02E6111542D97B1EB1966CE03F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C43658CE7B7F7E544457ED5CC254EE43 /* Pods-PSGTools_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSGTools_Example/Pods-PSGTools_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSGTools_Example/Pods-PSGTools_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF6A5CE4A9A78B25CFA459D62ADE2AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1AEAD07B7541557AA8995C76D0DEAA9 /* PSGTools.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PSGTools/PSGTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSGTools/PSGTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PSGTools/PSGTools.modulemap";
+				PRODUCT_MODULE_NAME = PSGTools;
+				PRODUCT_NAME = PSGTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4234DBEBE43F9FFD785275146E26B574 /* Build configuration list for PBXNativeTarget "PSGTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6A5CE4A9A78B25CFA459D62ADE2AAF /* Debug */,
+				7C14D316808BDF69B3EFAD5CEA29BAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9306BB714C35628F1764CC24A161D13 /* Build configuration list for PBXNativeTarget "Pods-PSGTools_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9261C02E6111542D97B1EB1966CE03F /* Debug */,
+				AFE347CD049076961633FCD099797E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08D02B4498ABEFD4731112CD5754E83 /* Build configuration list for PBXNativeTarget "Pods-PSGTools_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E7D0914C5F60CB499F812DE5005B12 /* Debug */,
+				14B7F3685C095DD9F7537710A2C2F184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

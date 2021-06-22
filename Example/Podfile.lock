@@ -1,0 +1,16 @@
+PODS:
+  - PSGTools (0.1.0)
+
+DEPENDENCIES:
+  - PSGTools (from `../`)
+
+EXTERNAL SOURCES:
+  PSGTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PSGTools: 1de7ff0e4c85dfc79c31e54f52b947d06da93fb1
+
+PODFILE CHECKSUM: b1ff6221820eb587b7d17a12802977408016e741
+
+COCOAPODS: 1.9.3

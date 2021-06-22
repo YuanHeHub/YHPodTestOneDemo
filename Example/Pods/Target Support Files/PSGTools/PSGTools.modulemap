@@ -1,0 +1,6 @@
+framework module PSGTools {
+  umbrella header "PSGTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
